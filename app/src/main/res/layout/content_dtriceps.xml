@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".dtriceps"
+    tools:showIn="@layout/activity_dtriceps">
+    <!--main cointainer-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF">
+        <!--biceps container starts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Triceps Workout Exercises"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+                android:textStyle="bold"
+                android:gravity="center">
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1) One Arm Tricep Extension"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="175dp">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/onearmtricep"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:text="1)Hold a dumbbell in one hand directly behind your head, with your elbow bent and pointed towards the ceiling.\n\n2)Extend through your elbow until your arm is straight and the dumbbell is directly above you.\n\n3)Lower your arm back to starting position and repeat.\n
+
+
+"
+                android:textSize="15sp"></TextView>
+        </RelativeLayout>
+        <!--One arm container ends-->
+        <!--Two arm container starts-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2) Two Arms Tricep Extension"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+                android:textStyle="bold">
+
+            </TextView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200sp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/twoarmstricepsextesion"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="0dp"
+                android:textSize="15sp"
+                android:text="1)Standing or sitting grasp a dumbbell of desired weight. Be sure to keep the core tight throughout the entire lift.\n\n2)Raise the weight vertically into the starting position.\n\n3)Lower the weight downward (behind the head) until the forearms reach horizontal, inhaling throughout the movement. \n\n4)Press the weight upwards to the starting position, exhaling throughout the movement.\n\n
+
+
+"
+                >
+            </TextView>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

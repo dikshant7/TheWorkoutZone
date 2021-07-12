@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".dabrlegs"
+    tools:showIn="@layout/activity_dabrlegs">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF">
+        <!-- main heading starts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Legs Workout Exercises"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+                android:textStyle="bold"
+                android:gravity="center">
+            </TextView>
+        </LinearLayout>
+        <!-- main heading ends-->
+        <!-- pushups -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1) Calf Raises"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp">
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/calfraises"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="15sp"
+                android:text="1)Keep your torso upright and rest your heels firmly on floor. \n\n2)Raise your heels as high as possible by pushing through the balls of your feet and toes while extending your ankles. Hold for a count of one. \n\n3)Return to the starting position by bending your ankles until you feel a stretch in your calves. \n\n
+">
+            </TextView>
+        </RelativeLayout>
+        <!--pushups end-->
+        <!-- armcircles -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2) Dumbbell Deadlift"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/deadlift"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text=" 1)Hold a pair of dumbbells in front of you with an overhand grip, palms facing the body.\n\n2)Hinge forward at your hips, slightly bending the knees, lowering the dumbbells to the ground without allowing your back to round. Brace core and lift back to the starting position.\n\n">                > </TextView>
+        </RelativeLayout>
+        <!--armcicles end-->
+        <!-- burpees -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3) Front Squats"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/frontsquat"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Pick the dumbbells up and hold them in front of your shoulders while standing straight up.\n\n2)With feet shoulder width apart begin a squat motion till your legs make a 90 degree angle.\n\n3)Stand back up from squat position. This completes one repetition.\n\n
+">
+
+            </TextView>        </RelativeLayout>
+        <!--burpees end-->
+        <!-- jumping jack-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4) Dumbbell Lunges"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/lungesdumbbells"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Stand up straight with a dumbbell in each hand. Hang your arms at your sides. Palms should face the thighs. Feet should be a little less than shoulder-width apart. \n\n2)Take a big step forward with either leg, bending at the knee until the front thigh approaches parallel to the ground, landing on the heel. Inhale as you go down. The rear leg is bent at the knee and balanced on the toes. For the leg you step forward with, don't let the knee go past the tip of the toes. \n\n3)Step back to your standing starting position while exhaling. \n\n4)Repeat the motion with the other leg. Alternate legs until the exercise program set is complete\n\n
+">
+            </TextView>       </RelativeLayout>
+        <!--jumping jack end-->
+        <!-- plank -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5) Barbell Deadlift"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+
+                >
+            </TextView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView85"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/barbelldeadlift"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Stand with your mid-foot under the barbell\n\n2)Bend over and grab the bar with a shoulder-width grip\n\n3)Bend your knees until your shins touch the bar\n\n4)Lift your chest up and straighten your lower back\n\n5)Take a big breath, hold it, and stand up with the weight\n\n
+">
+
+            </TextView>        </RelativeLayout>
+        <!--plank end-->
+        <!-- crunches-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6) Barbell Squats"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView86"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/squats"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Stand with the bar on your upper-back, and your feet shoulder-width apart\n\n2)Squat down by pushing your knees to the side while moving hips back\n\n3)Break parallel by Squatting down until your hips are lower than your knees\n\n4)Squat back up while keeping your knees out and chest up\n\n5)Stand with your hips and knees locked at the top\n\n
+">
+            </TextView>   </RelativeLayout>
+        <!--crunches end-->
+        <!-- crunches-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7) Barbell Lunges"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10sp"
+                app:autoSizeMaxTextSize="100sp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView87"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/barbelllunges"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Stand tall and hold a barbell across your upper back. \n\n2)Take a large step forward with one leg, lowering your rear knee towards the floor while keeping your front shin as vertical as possible. \n\n3)Push yourself back to the starting position. \n\n
+">
+            </TextView>   </RelativeLayout>
+        <!--crunches end-->
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

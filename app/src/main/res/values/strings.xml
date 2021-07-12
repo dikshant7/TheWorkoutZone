@@ -1,0 +1,336 @@
+<resources>
+
+    <string name="app_name">gym</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dchest">dchest</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following codeck shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For codeck, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For codeck, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For codeck, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="title_activity_dbiceps">dbiceps</string>
+    <string name="_1_stand_holding_a_dumbbell_in_each_hand_with_your_arms_hanging_by_your_sides_n_2_ensure_your_elbows_are_close_to_your_torso_and_your_palms_facing_forward_n_3_keeping_your_upper_arms_stationary_exhale_as_you_curl_the_weights_up_to_shoulder_level_while_contracting_your_biceps_n_4_hold_the_weight_at_shoulder_height_for_a_brief_pause_then_inhale_as_you_slowly_lower_back_to_the_start_position_n">1)Stand holding a dumbbell in each hand with your arms hanging by your sides.\n 2)Ensure your elbows are close to your torso and your palms facing forward.\n 3)Keeping your upper arms stationary, exhale as you curl the weights up to shoulder level while contracting your biceps.\n 4)Hold the weight at shoulder height for a brief pause, then inhale as you slowly lower back to the start position.\n</string>
+    <string name="title_activity_abenchandbenchandrod">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_dtriceps">ScrollingActivity</string>
+    <string name="title_activity_dshoulder">ScrollingActivity</string>
+    <string name="title_activity_dabdominal">ScrollingActivity</string>
+    <string name="title_activity_dback">ScrollingActivity</string>
+    <string name="title_activity_dlegs">ScrollingActivity</string>
+    <string name="title_activity_dforearm">ScrollingActivity</string>
+    <string name="title_activity_no_equipment">noEquipment</string>
+    <string name="title_activity_fullbodyworkout">fullbodyworkout</string>
+
+    <string name="title_activity_dumbellsfbenchabench">dumbellsfbenchabench</string>
+
+    <string name="title_activity_fbwdumbellsrodfbench">fbwdumbellsrodfbench</string>
+
+    <string name="title_activity_fbwdumbellsrodabench">fbwdumbellsrodabench</string>
+
+    <string name="title_activity_fbwdumbbellsfbenchabench">fbwdumbbellsfbenchabench</string>
+
+    <string name="title_activity_fbwdumbellsandrod">fbwdumbellsandrod</string>
+
+    <string name="title_activity_fbwdumbellsandfkatbench">fbwdumbellsandfkatbench</string>
+
+    <string name="title_activity_fbwdumbellsandabench">fbwdumbellsandabench</string>
+
+    <string name="title_activity_fbwrodandfbench">fbwrodandfbench</string>
+
+    <string name="title_activity_fbwrodandabench">fbwrodandabench</string>
+
+    <string name="title_activity_fbwdumbells">fbwdumbells</string>
+
+    <string name="title_activity_fbwrod">fbwrod</string>
+
+    <string name="_1_get_down_on_all_fours_placing_your_hands_slightly_wider_than_your_shoulders_n_2_straighten_your_arms_and_legs_n_3_lower_your_body_until_your_chest_nearly_touches_the_floor_n_4_pause_then_push_yourself_back_up_n_5_repeat_n">1. Get down on all fours, placing your hands slightly wider than your shoulders. \n 2. Straighten your arms and legs. \n 3. Lower your body until your chest nearly touches the floor. \n 4. Pause, then push yourself back up. \n 5. Repeat. \n</string>
+
+    <string name="_1_pick_the_dumbbells_up_and_hold_them_in_front_of_your_shoulders_while_standing_straight_up_n_2_with_feet_shoulder_width_apart_begin_a_squat_motion_till_your_legs_make_a_90_degree_angle_n_3_stand_back_up_from_squat_position_this_completes_one_repetition_n">1)Pick the dumbbells up and hold them in front of your shoulders while standing straight up.\n 2)With feet shoulder width apart begin a squat motion till your legs make a 90 degree angle.\n 3) Stand back up from squat position. This completes one repetition.\n</string>
+
+    <string name="_1_grasp_dumbbells_in_both_hands_position_dumbbells_in_front_of_upper_legs_with_elbows_straight_or_slightly_bent_n_2_raise_one_dumbbell_forward_and_upward_with_until_upper_arm_is_above_horizontal_lower_and_repeat_with_opposite_arm_alternating_between_arms_n">1)Grasp dumbbells in both hands. Position dumbbells in front of upper legs with elbows straight or slightly bent.\n 2)Raise one dumbbell forward and upward with until upper arm is above horizontal. Lower and repeat with opposite arm, alternating between arms.\n</string>
+
+    <string name="_1_stand_with_feet_hip_width_apart_holding_dumbbells_in_front_of_hips_palms_facing_thighs_n_2_squeeze_shoulder_blades_together_to_keep_spine_in_a_neutral_position_inhale_first_hinging_at_the_hips_then_knees_to_lower_dumbbells_along_the_front_of_legs_pausing_when_torso_is_parallel_to_the_ground_n_3_exhale_and_drive_through_the_mid_foot_to_return_to_standing_maintaining_a_neutral_spine_and_keeping_dumbbells_close_to_the_body_throughout_fully_extend_hips_and_knees_squeezing_glutes_at_the_top_n">1) Stand with feet hip-width apart, holding dumbbells in front of hips, palms facing thighs. \n 2) Squeeze shoulder blades together to keep spine in a neutral position. Inhale, first hinging at the hips then knees to lower dumbbells along the front of legs, pausing when torso is parallel to the ground. \n 3) Exhale and drive through the mid-foot to return to standing, maintaining a neutral spine and keeping dumbbells close to the body throughout. Fully extend hips and knees, squeezing glutes at the top. \n</string>
+
+    <string name="_1_begin_in_the_plank_position_face_down_with_your_forearms_and_toes_on_the_floor_your_elbows_are_directly_under_your_shoulders_and_your_forearms_are_facing_forward_your_head_is_relaxed_and_you_should_be_looking_at_the_floor_n_2_hold_this_position_for_10_seconds_release_to_floor_n_3_over_time_work_up_to_30_45_or_60_seconds_n">1)Begin in the plank position, face down with your forearms and toes on the floor. Your elbows are directly under your shoulders and your forearms are facing forward. Your head is relaxed and you should be looking at the floor.\n 2)Hold this position for 10 seconds. Release to floor.\n 3)Over time work up to 30, 45, or 60 seconds.\n</string>
+
+    <string name="a_get_down_on_all_fours_placing_your_hands_slightly_wider_than_your_shoulders_n_b_straighten_your_arms_and_legs_n_c_lower_your_body_until_your_chest_nearly_touches_the_floor_n_d_pause_then_push_yourself_back_up_n_e_repeat_n">a)Get down on all fours, placing your hands slightly wider than your shoulders. \n b)Straighten your arms and legs. \n c) Lower your body until your chest nearly touches the floor. \n d)Pause, then push yourself back up. \n e) Repeat. \n</string>
+
+
+    -
+    <string name="get_down_on_all_fours_placing_your_hands_slightly_wider_than_your_shoulders_n_straighten_your_arms_and_legs_n_lower_your_body_until_your_chest_nearly_touches_the_floor_n_pause_then_push_yourself_back_up_n_repeat_n">
+
+-<![CDATA[->Get down on all fours, placing your hands slightly wider than your shoulders.\n ->Straighten your arms and legs.\n ->Lower your body until your chest nearly touches the floor.\n ->Pause, then push yourself back up.\n ->Repeat.\n]]>
+</string>
+
+    <string name="_1_get_down_on_all_fours_placing_your_hands_slightly_wider_than_your_shoulders_n_2_straighten_your_arms_and_legs_n_3_lower_your_body_until_your_chest_nearly_touches_the_floor_n_4_pause_then_push_yourselff_back_up_n_5_repeat_n">1) Get down on all fours, placing your hands slightly wider than your shoulders.\n 2) Straighten your arms and legs.\n 3) Lower your body until your chest nearly touches the floor.\n 4) Pause, then push yourself back up.\n 5) Repeat.\n</string>
+
+    <string name="get_down_on_all_fours_placing_your_hands_slightly_wider_than_your_shoulders_n_straighten_your_arms_and_legs_n_lower_your_body_until_your_chest_nearly_touches_the_floor_n_pause_then_push_yoursself_back_up_n_repeat_n">• Get down on all fours, placing your hands slightly wider than your shoulders.\n • Straighten your arms and legs.\n • Lower your body until your chest nearly touches the floor.\n • Pause, then push yourself back up.\n • Repeat.\n</string>
+
+    <string name="pick_the_dumbbells_up_and_hold_them_in_front_of_your_shoulders_while_standing_straight_up_n_with_feet_shoulder_width_apart_begin_a_squat_motion_till_your_legs_make_a_90_degree_angle_n_stand_back_up_from_squat_position_this_completes_one_repetition_n">• Pick the dumbbells up and hold them in front of your shoulders while standing straight up.\n • With feet shoulder width apart begin a squat motion till your legs make a 90 degree angle.\n • Stand back up from squat position. This completes one repetition.\n</string>
+
+    <string name="grasp_dumbbells_in_both_hands_position_dumbbells_in_front_of_upper_legs_with_elbows_straight_or_slightly_bent_n_raise_one_dumbbell_forward_and_upward_with_until_upper_arm_is_above_horizontal_lower_and_repeat_with_opposite_arm_alternating_between_arms_n">• Grasp dumbbells in both hands. Position dumbbells in front of upper legs with elbows straight or slightly bent.\n • Raise one dumbbell forward and upward with until upper arm is above horizontal. Lower and repeat with opposite arm, alternating between arms.\n</string>
+
+    <string name="stand_with_feet_hip_width_apart_holding_dumbbells_in_front_of_hips_palms_facing_thighs_n_squeeze_shoulder_blades_together_to_keep_spine_in_a_neutral_position_inhale_first_hinging_at_the_hips_then_knees_to_lower_dumbbells_along_the_front_of_legs_pausing_when_torso_is_parallel_to_the_ground_n_exhale_and_drive_through_the_mid_foot_to_return_to_standing_maintaining_a_neutral_spine_and_keeping_dumbbells_close_to_the_body_throughout_fully_extend_hips_and_knees_squeezing_glutes_at_the_top_n">• Stand with feet hip-width apart, holding dumbbells in front of hips, palms facing thighs. \n • Squeeze shoulder blades together to keep spine in a neutral position. Inhale, first hinging at the hips then knees to lower dumbbells along the front of legs, pausing when torso is parallel to the ground. \n • Exhale and drive through the mid-foot to return to standing, maintaining a neutral spine and keeping dumbbells close to the body throughout. Fully extend hips and knees, squeezing glutes at the top. \n</string>
+
+    <string name="stand_with_feet_hip_width_apart_holding_dumbbells_in_front_of_hips_palms_facing_thighs_n_squeeze_shoulder_blades_together_to_keep_spine_in_a_neutral_position_inhale_first_hinging_at_the_hips_then_knees_to_lower_dumbbells_along_the_front_of_legs_pausing_when_torso_is_parallel_to_the_ground_n_exhale_and_drive_through_the_mid_foot_to_return_to_standing_maintaining_a_neutral_spine_and_keeping_dumbbells_close_to_the_body_throughout_fully_extend_hips_and_knees_squeezing_glutds_at_the_top_n">• Stand with feet hip-width apart, holding dumbbells in front of hips, palms facing thighs. \n • Squeeze shoulder blades together to keep spine in a neutral position. Inhale, first hinging at the hips then knees to lower dumbbells along the front of legs, pausing when torso is parallel to the ground. \n • Exhale and drive through the mid-foot to return to standing, maintaining a neutral spine and keeping dumbbells close to the body throughout. Fully extend hips and knees, squeezing glutes at the top. \n</string>
+
+    <string name="begin_in_the_plank_position_face_down_with_your_forearms_and_toes_on_the_floor_your_elbows_are_directly_under_your_shoulders_and_your_forearms_are_facing_forward_your_head_is_relaxed_and_you_should_be_looking_at_the_floor_n_hold_this_position_for_10_seconds_release_to_floor_n_over_time_work_up_to_30_45_or_60_seconds_n">• Begin in the plank position, face down with your forearms and toes on the floor. Your elbows are directly under your shoulders and your forearms are facing forward. Your head is relaxed and you should be looking at the floor.\n • Hold this position for 10 seconds. Release to floor.\n • Over time work up to 30, 45, or 60 seconds.\n</string>
+
+    <string name="keep_your_torso_upright_and_rest_your_heels_firmly_on_floor_n_raise_your_heels_as_high_as_possible_by_pushing_through_the_balls_of_your_feet_and_toes_while_extending_your_ankles_hold_for_a_count_of_one_n_return_to_the_starting_position_by_bending_your_ankles_until_you_feel_a_stretch_in_your_calves_n">• Keep your torso upright and rest your heels firmly on floor. \n • Raise your heels as high as possible by pushing through the balls of your feet and toes while extending your ankles. Hold for a count of one. \n • Return to the starting position by bending your ankles until you feel a stretch in your calves. \n</string>
+
+    <string name="_1_stand_holding_a_dumbbell_in_each_hand_with_your_arms_hanging_by_your_sides_n_2_raise_one_dumbbell_toward_your_shoulder_while_simultaneously_rotating_the_back_of_your_hand_n_3_pause_with_your_palm_facing_your_shoulder_reverse_the_movement_to_lower_the_weight_to_starting_position_n">1)Stand holding a dumbbell in each hand with your arms hanging by your sides. \n 2)Raise one dumbbell toward your shoulder while simultaneously rotating the back of your hand. \n 3) Pause with your palm facing your shoulder. Reverse the movement to lower the weight to starting position. \n</string>
+
+    <string name="stand_holding_a_dumbbell_in_each_hand_with_your_arms_hanging_by_your_sides_n_raise_one_dumbbell_toward_your_shoulder_while_simultaneously_rotating_the_back_of_your_hand_n_pause_with_your_palm_facing_your_shoulder_reverse_the_movement_to_lower_the_weight_to_starting_position_n">• Stand holding a dumbbell in each hand with your arms hanging by your sides. \n • Raise one dumbbell toward your shoulder while simultaneously rotating the back of your hand. \n • Pause with your palm facing your shoulder. Reverse the movement to lower the weight to starting position. \n</string>
+
+    <string name="grab_a_set_of_dumbbells_and_stand_straight_up_with_the_dumbbells_at_your_sides_n_your_palms_should_be_facing_you_r_body_you_should_be_holding_the_dumbbells_slightly_off_your_body_as_this_keeps_the_tension_on_the_side_delts_this_is_your_starting_position_for_the_exercise_n_to_execute_slowly_raise_the_dumbbells_up_to_around_shoulder_height_it_s_important_that_you_do_not_let_your_wrists_go_above_your_elbows_while_raising_the_weight_as_this_will_take_the_work_off_the_side_delts_and_put_it_on_the_front_delts_n_pause_at_the_top_of_the_movement_and_then_slowly_lower_the_weight_back_to_the_starting_position_n_do_not_let_the_dumbbells_touch_your_body_and_then_raise_them_for_the_next_rep_n">• Grab a set of dumbbells and stand straight up with the dumbbells at your sides. \n • Your palms should be facing you r body. You should be holding the dumbbells slightly off your body, as this keeps the tension on the side delts. This is your starting position for the exercise. \n • To execute, slowly raise the dumbbells up to around shoulder height. It\'s important that you do not let your wrists go above your elbows while raising the weight, as this will take the work off the side delts and put it on the front delts. \n • Pause at the top of the movement, and then slowly lower the weight back to the starting position. \n • Do not let the dumbbells touch your body, and then raise them for the next rep. \n</string>
+
+    <string name="stand_upright_and_keep_the_back_straight_n_hold_a_dumbbell_in_each_hand_at_the_shoulders_with_an_overhand_grip_thumbs_should_be_on_the_inside_and_knuckles_facing_up_n_raise_the_weights_above_the_head_in_a_controlled_motion_while_exhaling_pause_at_the_top_of_the_motion_n_return_the_dumbbells_to_the_shoulders_while_inhaling_n">• Stand upright and keep the back straight. \n • Hold a dumbbell in each hand at the shoulders with an overhand grip. Thumbs should be on the inside and knuckles facing up. \n • Raise the weights above the head in a controlled motion while exhaling. Pause at the top of the motion. \n • Return the dumbbells to the shoulders while inhaling. \n</string>
+
+    <string name="standing_or_sitting_grasp_a_dumbbell_of_desired_weight_be_sure_to_keep_the_core_tight_throughout_the_entire_lift_n_raise_the_weight_vertically_into_the_starting_position_n_lower_the_weight_downward_behind_the_head_until_the_forearms_reach_horizontal_inhaling_throughout_the_movement_n_press_the_weight_upwards_to_the_starting_position_exhaling_throughout_the_movement_n_repeat_steps_3_4_for_as_many_reps_as_desired_n">• Standing or sitting grasp a dumbbell of desired weight. Be sure to keep the core tight throughout the entire lift. \n • Raise the weight vertically into the starting position\n • Lower the weight downward (behind the head) until the forearms reach horizontal, inhaling throughout the movement. \n • Press the weight upwards to the starting position, exhaling throughout the movement.\n • Repeat steps 3-4 for as many reps as desired\n</string>
+
+    <string name="_10_standing_triceps_barbell_extension">10) Standing triceps Barbell extension</string>
+
+    <string name="_9_barbell_lunges">9) Barbell lunges</string>
+
+    <string name="_8_barbell_row">8) Barbell row</string>
+
+    <string name="_7_barbell_biceps_curl">7) Barbell biceps curl</string>
+
+    <string name="_6_shoulder_shrug">6) Shoulder shrug</string>
+
+    <string name="_5_plank">5) plank</string>
+
+    <string name="_4_barbell_deadlift">4) Barbell deadlift</string>
+
+    <string name="_3_military_press">3) Military press</string>
+
+    <string name="_2_barbell_squats">2) Barbell squats</string>
+
+    <string name="_1_pushups">1) Pushups</string>
+
+    <string name="full_body_workout_exercises_with_rod_only">Full body workout exercises with rod only</string>
+
+    <string name="stand_with_the_bar_on_your_upper_back_and_your_feet_shoulder_width_apart_n_squat_down_by_pushing_your_knees_to_the_side_while_moving_hips_back_n_break_parallel_by_squatting_down_until_your_hips_are_lower_than_your_knees_n_squat_back_up_while_keeping_your_knees_out_and_chest_up_n_stand_with_your_hips_and_knees_locked_at_the_top_n">• Stand with the bar on your upper-back, and your feet shoulder-width apart\n • Squat down by pushing your knees to the side while moving hips back\n • Break parallel by Squatting down until your hips are lower than your knees\n • Squat back up while keeping your knees out and chest up\n • Stand with your hips and knees locked at the top\n</string>
+
+    <string name="stand_with_the_bar_on_your_front_shoulders_and_your_hands_next_to_your_shoulders_n_press_the_bar_over_your_head_until_it_s_balanced_over_your_shoulders_and_mid_foot_n_lock_your_elbows_at_the_top_and_shrug_your_shoulders_to_the_ceiling_n_hold_the_bar_for_a_second_at_the_top_then_lower_it_back_to_your_front_shoulders_and_repeat_n">• Stand with the bar on your front shoulders, and your hands next to your shoulders\n • Press the bar over your head, until it’s balanced over your shoulders and mid-foot\n • Lock your elbows at the top, and shrug your shoulders to the ceiling.\n • Hold the bar for a second at the top. Then lower it back to your front shoulders and repeat.\n</string>
+
+    <string name="stand_with_your_mid_foot_under_the_barbell_bend_over_and_grab_the_bar_with_a_shoulder_width_grip_n_bend_your_knees_until_your_shins_touch_the_bar_n_lift_your_chest_up_and_straighten_your_lower_back_n_take_a_big_breath_hold_it_and_stand_up_with_the_weight_n">• Stand with your mid-foot under the barbell • Bend over and grab the bar with a shoulder-width grip\n • Bend your knees until your shins touch the bar\n • Lift your chest up and straighten your lower back\n • Take a big breath, hold it, and stand up with the weight\n</string>
+
+    <string name="position_the_safeties_just_below_waist_height_in_a_rack_n_assume_a_standing_position_with_the_bar_in_front_of_your_body_n_hinge_forward_inhale_and_grab_the_bar_with_a_double_overhand_grip_n_stand_up_tall_and_ensure_your_spine_remains_neutral_n_contract_the_traps_to_elevate_the_shoulders_squeeze_hard_at_the_top_and_slowly_lower_the_bar_back_to_the_starting_position_n">•Position the safeties just below waist height in a rack. \n •Assume a standing position with the bar in front of your body. \n •Hinge forward, inhale, and grab the bar with a double overhand grip. \n •Stand up tall and ensure your spine remains neutral. \n •Contract the traps to elevate the shoulders. Squeeze hard at the top and slowly lower the bar back to the starting position. \n</string>
+
+    <string name="grab_a_barbell_with_an_underhand_grip_and_let_it_hang_with_arms_fully_extended_and_palms_facing_forward_n_begin_to_raise_the_barbell_to_your_neck_level_only_using_your_biceps_once_you_reach_the_peak_slowly_lower_the_bar_to_starting_position_n">•Grab a barbell with an underhand grip and let it hang with arms fully extended and palms facing forward. \n •Begin to raise the barbell to your neck level only using your biceps. Once you reach the peak, slowly lower the bar to starting position. \n</string>
+
+    <string name="stand_with_your_mid_foot_under_the_bar_n_bend_over_and_grab_the_bar_n_unlock_your_knees_while_keeping_your_hips_high_n_lift_your_chest_and_straighten_your_back_n_pull_the_bar_against_your_lower_chest_n">• Stand with your mid-foot under the bar \n • Bend over and grab the bar \n • Unlock your knees while keeping your hips high\n •Lift your chest and straighten your back\n • Pull the bar against your lower chest\n</string>
+
+    <string name="choose_an_appropriate_weight_and_place_the_barbell_across_your_back_n_step_forward_with_your_right_foot_and_sink_into_a_lunge_so_both_legs_are_bent_with_your_back_knee_as_close_to_the_floor_as_possible_n_drive_yourself_back_up_and_repeat_on_the_other_side_n">• Choose an appropriate weight and place the barbell across your back. \n • Step forward with your right foot and sink into a lunge, so both legs are bent with your back knee as close to the floor as possible. \n • Drive yourself back up and repeat on the other side. \n</string>
+
+    <string name="grab_a_barbell_and_stand_with_it_held_over_your_head_in_both_hands_hands_almost_touching_and_palms_facing_forwards_n_bend_your_elbows_to_slowly_lower_the_bar_behind_your_head_keeping_your_upper_arms_stationary_n_one_your_elbows_hit_90_degrees_pause_then_return_to_the_starting_position_by_flexing_your_triceps">• Grab a barbell and stand with it held over your head in both hands, hands almost touching and palms facing forwards. \n • Bend your elbows to slowly lower the bar behind your head, keeping your upper arms stationary. \n • One your elbows hit 90 degrees, pause, then return to the starting position by flexing your triceps.</string>
+    <string name="title_activity_errorbench">errorbench</string>
+    <string name="title_activity_dfbabdominal">ScrollingActivity</string>
+    <string name="title_activity_dlfbback">ScrollingActivity</string>
+    <string name="title_activity_dfbchest">ScrollingActivity</string>
+    <string name="title_activity_dfbbiceps">ScrollingActivity</string>
+    <string name="title_activity_dfbtriceps">ScrollingActivity</string>
+    <string name="title_activity_dfbforearms">ScrollingActivity</string>
+    <string name="title_activity_dfbforearm">ScrollingActivity</string>
+    <string name="title_activity_dfblegs">ScrollingActivity</string>
+    <string name="title_activity_dfbshoulder">ScrollingActivity</string>
+    <string name="title_activity_warmupexercises">ScrollingActivity</string>
+    <string name="title_activity_dumbbells">ScrollingActivity</string>
+    <string name="title_activity_dumbbellsandflatbench">ScrollingActivity</string>
+    <string name="title_activity_dumbbellsandabenchandrod">ScrollingActivity</string>
+    <string name="title_activity_dabrbiceps">ScrollingActivity</string>
+    <string name="title_activity_dabrtriceps">ScrollingActivity</string>
+    <string name="title_activity_dabrforearms">ScrollingActivity</string>
+    <string name="title_activity_dabrlegs">ScrollingActivity</string>
+    <string name="title_activity_dabrback">ScrollingActivity</string>
+    <string name="title_activity_dabrabdominals">ScrollingActivity</string>
+    <string name="title_activity_dabrshoulders">ScrollingActivity</string>
+    <string name="title_activity_dabrchest">ScrollingActivity</string>
+    <string name="title_activity_rod">ScrollingActivity</string>
+    <string name="title_activity_rbiceps">ScrollingActivity</string>
+    <string name="title_activity_rtricpes">ScrollingActivity</string>
+    <string name="title_activity_rforearms">ScrollingActivity</string>
+    <string name="title_activity_rlegs">ScrollingActivity</string>
+    <string name="title_activity_rback">ScrollingActivity</string>
+    <string name="title_activity_rabdominals">ScrollingActivity</string>
+    <string name="title_activity_rshoulders">ScrollingActivity</string>
+    <string name="title_activity_rchest">ScrollingActivity</string>
+    <string name="title_activity_rodandflatbench">ScrollingActivity</string>
+    <string name="title_activity_rfbbiceps">ScrollingActivity</string>
+    <string name="title_activity_rfbtriceps">ScrollingActivity</string>
+    <string name="title_activity_rfbforearms">ScrollingActivity</string>
+    <string name="title_activity_rfblegs">ScrollingActivity</string>
+    <string name="title_activity_rfbback">ScrollingActivity</string>
+    <string name="title_activity_rfbabdomials">ScrollingActivity</string>
+    <string name="title_activity_rfbshoulders">ScrollingActivity</string>
+    <string name="title_activity_rfbchest">ScrollingActivity</string>
+    <string name="title_activity_abenchandrod">ScrollingActivity</string>
+    <string name="title_activity_rabbiceps">ScrollingActivity</string>
+    <string name="title_activity_rabtriceps">ScrollingActivity</string>
+    <string name="title_activity_rabforearms">ScrollingActivity</string>
+    <string name="title_activity_rablegs">ScrollingActivity</string>
+    <string name="title_activity_rabback">ScrollingActivity</string>
+    <string name="title_activity_rababdomials">ScrollingActivity</string>
+    <string name="title_activity_rabshoulders">ScrollingActivity</string>
+    <string name="title_activity_rabchest">ScrollingActivity</string>
+    <string name="back_workout_exercises">Back Workout exercises</string>
+    <string name="_1_barbell_deadlift">1) Barbell Deadlift</string>
+    <string name="_1_hold_a_dumbbell_in_one_hand_directly_behind_your_head_with_your_elbow_bent_and_pointed_towards_the_ceiling_n_n_2_extend_through_your_elbow_until_your_arm_is_straight_and_the_dumbbell_is_directly_above_you_n_n_3_lower_your_arm_back_to_starting_position_and_repeat_n_n">1)Hold a dumbbell in one hand directly behind your head, with your elbow bent and pointed towards the ceiling.\n\n 2)Extend through your elbow until your arm is straight and the dumbbell is directly above you. \n\n 3)Lower your arm back to starting position and repeat. \n\n</string>
+    <string name="_2_barbell_row">2) Barbell Row</string>
+    <string name="title_activity_abenchanddumbell">ScrollingActivity</string>
+    <string name="title_activity_abdabdominal">ScrollingActivity</string>
+    <string name="title_activity_abdback">ScrollingActivity</string>
+    <string name="title_activity_abdbiceps">ScrollingActivity</string>
+    <string name="title_activity_abdchest">ScrollingActivity</string>
+    <string name="title_activity_abdforearm">ScrollingActivity</string>
+    <string name="title_activity_abdlegs">ScrollingActivity</string>
+    <string name="title_activity_abdshoulder">ScrollingActivity</string>
+    <string name="title_activity_abdtriceps">ScrollingActivity</string>
+    <string name="title_activity_dumbellrodflatbench">ScrollingActivity</string>
+    <string name="title_activity_dfbrabdominal">ScrollingActivity</string>
+    <string name="title_activity_dfbrback">ScrollingActivity</string>
+    <string name="title_activity_dfbrbiceps">ScrollingActivity</string>
+    <string name="title_activity_dfbrchest">ScrollingActivity</string>
+    <string name="title_activity_dfbrforearm">ScrollingActivity</string>
+    <string name="title_activity_dfbrlegs">ScrollingActivity</string>
+    <string name="title_activity_dfbrshoulders">ScrollingActivity</string>
+    <string name="title_activity_dfbrtriceps">ScrollingActivity</string>
+    <string name="title_activity_dumbellandrod">ScrollingActivity</string>
+    <string name="title_activity_drabdominal">ScrollingActivity</string>
+    <string name="title_activity_drback">ScrollingActivity</string>
+    <string name="title_activity_drbiceps">ScrollingActivity</string>
+    <string name="title_activity_drchest">ScrollingActivity</string>
+    <string name="title_activity_drforearm">ScrollingActivity</string>
+    <string name="title_activity_drlegs">ScrollingActivity</string>
+    <string name="title_activity_drshoulders">ScrollingActivity</string>
+    <string name="title_activity_drtriceps">ScrollingActivity</string>
+    <string name="title_activity_noequipment">ScrollingActivity</string>
+    <string name="title_activity_fbwnoequipment">ScrollingActivity</string>
+    <string name="abdomen_workout">Abdomen workout</string>
+    <string name="_1_stand_upright_with_your_legs_together_arms_at_your_sides_n_n_2_bend_your_knees_slightly_and_jump_into_the_air_n_n_3_as_you_jump_spread_your_legs_to_be_about_shoulder_width_apart_stretch_your_arms_out_and_over_your_head_n_n_4_jump_back_to_starting_position_n_n">1)Stand upright with your legs together, arms at your sides. \n\n 2)Bend your knees slightly, and jump into the air. \n\n 3) As you jump, spread your legs to be about shoulder-width apart. Stretch your arms out and over your head. \n\n 4)Jump back to starting position. \n\n</string>
+    <string name="_1_jumping_jack">1)Jumping Jack</string>
+    <string name="_2_plank">2)Plank</string>
+    <string name="_1_begin_in_the_plank_position_face_down_with_your_forearms_and_toes_on_the_floor_your_elbows_are_directly_under_your_shoulders_and_your_forearms_are_facing_forward_your_head_is_relaxed_and_you_should_be_looking_at_the_floor_n_n_2_hold_this_position_for_10_seconds_release_to_floor_n_n_3_over_time_work_up_to_30_45_or_60_seconds_n_n">1)Begin in the plank position, face down with your forearms and toes on the floor. Your elbows are directly under your shoulders and your forearms are facing forward. Your head is relaxed and you should be looking at the floor.\n\n 2)Hold this position for 10 seconds. Release to floor.\n\n 3)Over time work up to 30, 45, or 60 seconds.\n\n</string>
+    <string name="_3_crunches">3)Crunches</string>
+    <string name="_1_lie_down_on_your_back_plant_your_feet_on_the_floor_hip_width_apart_bend_your_knees_and_place_your_arms_across_your_chest_contract_your_abs_and_inhale_n_n_2_exhale_and_lift_your_upper_body_keeping_your_head_and_neck_relaxed_n_n_3_inhale_and_return_to_the_starting_position_n_n">1)Lie down on your back. Plant your feet on the floor, hip-width apart. Bend your knees and place your arms across your chest. Contract your abs and inhale. \n\n 2)Exhale and lift your upper body, keeping your head and neck relaxed. \n\n 3)Inhale and return to the starting position. \n\n</string>
+    <string name="_4_mountain_climbers">4)Mountain Climbers</string>
+    <string name="_1_get_into_a_plank_position_making_sure_to_distribute_your_weight_evenly_between_your_hands_and_your_toes_n_n_2_check_your_form_your_hands_should_be_about_shoulder_width_apart_back_flat_abs_engaged_and_head_in_alignment_n_n_3_pull_your_right_knee_into_your_chest_as_far_as_you_can_n_n_4_switch_legs_pulling_one_knee_out_and_bringing_the_other_knee_in_n_n_5_keep_your_hips_down_run_your_knees_in_and_out_as_far_and_as_fast_as_you_can_alternate_inhaling_and_exhaling_with_each_leg_change_n_n">1)Get into a plank position, making sure to distribute your weight evenly between your hands and your toes. \n\n 2)Check your form—your hands should be about shoulder-width apart, back flat, abs engaged, and head in alignment. \n\n 3)Pull your right knee into your chest as far as you can. \n\n 4)Switch legs, pulling one knee out and bringing the other knee in. \n\n 5)Keep your hips down, run your knees in and out as far and as fast as you can. Alternate inhaling and exhaling with each leg change. \n\n</string>
+    <string name="_5_plank_knee_to_elbow">5) Plank Knee to Elbow</string>
+    <string name="_1_lay_face_down_on_the_ground_with_extended_legs_n_n_2_point_your_toes_while_you_place_your_hands_beneath_your_shoulders_n_n_3_push_yourself_up_into_the_plank_position_n_n_4_maintaining_a_tight_core_and_flat_back_bring_your_left_knee_to_your_right_elbow_n_n_5_pause_and_slowly_return_each_to_the_starting_point_n_n_6_repeat_with_the_other_side_and_keep_alternating_n_n">1)Lay face down on the ground with extended legs. \n\n 2)Point your toes while you place your hands beneath your shoulders. \n\n 3)Push yourself up into the plank position. \n\n 4)Maintaining a tight core and flat back, bring your left knee to your right elbow. \n\n 5)Pause and slowly return each to the starting point. \n\n 6)Repeat with the other side and keep alternating. \n\n</string>
+    <string name="_6_plank_shoulder">6) Plank shoulder</string>
+    <string name="_1_to_perform_this_exercise_start_in_a_press_up_position_and_make_sure_your_hands_up_directly_under_your_shoulders_and_your_feet_are_in_line_with_your_hips_n_n_2_keeping_your_hips_as_still_as_possible_lift_one_hand_and_tap_it_on_the_opposite_shoulder_n_n">1)To perform this exercise, start in a press-up position and make sure your hands up directly under your shoulders and your feet are in line with your hips. \n\n 2)Keeping your hips as still as possible, lift one hand and tap it on the opposite shoulder\n\n</string>
+    <string name="_7_russian_twist">7)Russian Twist</string>
+    <string name="_1_sit_on_the_floor_and_bring_your_legs_out_straight_n_n_2_lean_back_slightly_so_your_torso_and_legs_form_a_v_like_shape_bracing_your_abdominal_wall_to_engage_your_core_n_n_3_twist_your_torso_from_side_to_side_without_moving_your_legs_n_n">1)Sit on the floor and bring your legs out straight. \n\n 2) Lean back slightly so your torso and legs form a V-like shape, bracing your abdominal wall to engage your core. \n\n 3)twist your torso from side to side without moving your legs\n\n</string>
+    <string name="_8_leg_raise">8)Leg Raise</string>
+    <string name="_1_lie_on_your_back_legs_straight_and_together_n_n_2_keep_your_legs_straight_and_lift_them_all_the_way_up_to_the_ceiling_until_your_butt_comes_off_the_floor_n_n_3_slowly_lower_your_legs_back_down_till_they_re_just_above_the_floor_hold_for_a_moment_n_n_4_raise_your_legs_back_up_n_n">1. Lie on your back, legs straight and together. \n\n 2. Keep your legs straight and lift them all the way up to the ceiling until your butt comes off the floor. \n\n 3. Slowly lower your legs back down till they’re just above the floor. Hold for a moment. \n\n 4. Raise your legs back up. \n\n</string>
+    <string name="_1_pike_pushups">1)Pike Pushups</string>
+    <string name="_1_assume_a_pushup_position_on_the_floor_your_arms_should_be_straight_and_your_hands_should_be_shoulder_width_apart_n_n_2_now_lift_up_your_hips_so_that_your_body_forms_an_upside_down_v_your_legs_and_arms_should_stay_as_straight_as_possible_n_n_3_bend_your_elbows_and_lower_your_upper_body_until_the_top_of_your_head_nearly_touches_the_floor_n_n_4_pause_and_then_push_yourself_back_up_until_your_arms_are_straight_n_n">1)Assume a pushup position on the floor. Your arms should be straight and your hands should be shoulder-width apart./n/n 2)Now lift up your hips so that your body forms an upside down V. Your legs and arms should stay as straight as possible. /n/n 3)Bend your elbows and lower your upper body until the top of your head nearly touches the floor. /n/n 4)Pause, and then push yourself back up until your arms are straight. /n/n</string>
+    <string name="chest_workout">Chest workout</string>
+    <string name="_1_get_down_on_all_fours_placing_your_hands_slightly_wider_than_your_shoulders_n_n_2_straighten_your_arms_and_legs_n_n_3_lower_your_body_until_your_chest_nearly_touches_the_floor_n_n_4_pause_then_push_yourself_back_up_n_n">1) Get down on all fours, placing your hands slightly wider than your shoulders.\n\n 2) Straighten your arms and legs.\n\n 3) Lower your body until your chest nearly touches the floor.\n\n 4) Pause, then push yourself back up.\n\n</string>
+    <string name="title_activity_beginner">ScrollingActivity</string>
+    <string name="title_activity_begineer">ScrollingActivity</string>
+    <string name="title_activity_dumbbellandrod">ScrollingActivity</string>
+    <string name="title_activity_dumbbellsandrods">ScrollingActivity</string>
+    <string name="title_activity_dumbbellandrods">ScrollingActivity</string>
+    <string name="test">1)Stand upright with your legs together, arms at your sides.\n\n 2)Bend your knees slightly, and jump into the air.\n\n 3)As you jump, spread your legs to be about shoulder-width apart. Stretch your arms out and over your head.\n\n 4)Jump back to starting position.\n\n</string>
+</resources>

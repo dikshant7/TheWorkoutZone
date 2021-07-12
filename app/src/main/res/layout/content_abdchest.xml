@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".abdchest"
+    tools:showIn="@layout/activity_abdchest">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF">
+        <!-- main heading starts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Chest Workout Exercises"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp">
+            </TextView>
+        </LinearLayout>
+        <!-- main heading ends-->
+        <!-- pushups -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1) Dumbbell Bench Press"
+                android:textStyle="bold"
+                android:textSize="24sp">
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/benchpress"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="15sp"
+                android:text="1)Sit on the end of a bench with the dumbbells resting on your thighs, holding them with a strong grip in the center of the dumbbell grip . \n\n2)Lower yourself back and bring the dumbbells onto your chest, facing each other. \n\n3)Press the dumbbells up, so they are over your chest and your arms are almost straight. Twist your hands so your thumbs are side by side. \n\n4)Breathing in, slowly lower the dumbbells to a 2 count, so they reach a point in line with your nipples and your arms are just below 90 degrees. \n\n5)Breathing out and leading with your pinky finger, press the dumbbells back up to the start point, with your arms slightly bent. \n\n
+">
+            </TextView>
+        </RelativeLayout>
+        <!--pushups end-->
+        <!-- armcircles -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2) Bent Arm Dumbbell Pullover"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/bentarmpullover"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Position a dumbbell standing up on a flat bench. \n\n2)Making sure that the dumbbell stays in place on the top of the bench, lie perpendicular to it. \n\n3)Grab the dumbbell with both your hands and hold it straight over your chest with your elbows bent. \n\n4)Keeping your arms bent, lower the weight slowly in an arc behind your head. Inhale as you do so until you feel a stretch on your chest. \n\n5)Next, bring the dumbbell back to the starting position using the same arc motion. Exhale while performing this movement. \n\n6)Hold the dumbbell in the initial position for a second\n\n
+">                > </TextView>
+        </RelativeLayout>
+        <!--armcicles end-->
+        <!-- burpees -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3) Lying Fly"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/fly"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:textSize="15sp"
+                android:text="1)Lie down on your back on flat bench and grab one dumbbell with each hand at body height, elbows just slightly arched. \n\n2)Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause. \n\n
+">
+
+            </TextView>        </RelativeLayout>
+        <!--burpees end-->
+        <!-- jumping jack-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4) Dumbbell Decline Bench Press"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/dumbbellsdeclinebenchpress"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Lie down on your back on a decline bench and hold 2 dumbbells at chest level, palms facing forward.\n\n2)Raise the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.\n\n3)Breathe out when raising the dumbbells and breathe in when lowering them back.\n\n
+
+">
+            </TextView>       </RelativeLayout>
+        <!--jumping jack end-->
+        <!-- plank -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5) Incline Fly"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/inclinefly"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Lie down on your back on an incline bench and grab one dumbbell with each hand at body height, elbows just slightly arched. \n\n2)Raise the dumbbells until they are side by side on top of you and slowly lower them back after a short pause. \n\n3)Try to maintain the same angle in your elbows throughout. \n\n
+">
+
+            </TextView>        </RelativeLayout>
+        <!--plank end-->
+        <!-- crunches-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6) Dumbbell Incline Bench Press"
+                android:textStyle="bold"
+                android:textSize="26sp"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView56"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/dumbbellsinclinedumbbellspress"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:textSize="15sp"
+                android:text="1)Lie down on your back on an inclined bench and hold 2 dumbbells at chest level along your body, palms facing forward.\n\n2)Raise the dumbbells straight up until your elbows are close to being locked and lower them back slowly after a short pause.\n\n3)Breathe out when raising the dumbbells and breathe in when lowering them back.\n\n
+">
+            </TextView>   </RelativeLayout>
+
+    </LinearLayout>
+    <!-- main container ends-->
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".abdbiceps"
+    tools:showIn="@layout/activity_abdbiceps">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFFFFF">
+        <!-- main heading starts-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Biceps Workout Exercises"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+                android:textStyle="bold"
+                android:gravity="center">
+            </TextView>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="1) Bicep Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp">
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/gifImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:background="#FFFFFF"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/bicepscurl"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:textSize="15sp"
+                android:text="1)Stand holding a dumbbell in each hand with your arms hanging by your sides.\n\n
+2)Ensure your elbows are close to your torso and your palms facing forward.\n\n
+3)Keeping your upper arms stationary, exhale as you curl the weights up to shoulder level while contracting your biceps.\n\n
+4)Hold the weight at shoulder height for a brief pause, then inhale as you slowly lower back to the start position.\n\n
+">
+            </TextView>
+        </RelativeLayout>
+        <!--pushups end-->
+        <!-- armcircles -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="2) Hammer Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView82"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/hammercurl"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:textSize="15sp"
+                android:text="1)Stand holding a pair of dumbbells at arms length by your sides with your palms facing each other.\n\n
+2)Keeping your elbows tucked, your upper arms locked in place (only your hands and forearms should move), and your palms facing inward, curl the dumbbells as close to your shoulders as you can.\n\n
+3)Pause, and then slowly lower the weights back to the starting position.\n\n
+">                > </TextView>
+        </RelativeLayout>
+        <!--armcicles end-->
+        <!-- burpees -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="3) Supine Bicep Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView83"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/supinebicepscurl"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:textSize="15sp"
+                android:text="1)Start off lying on a flat bench with your head at one end and your feet planted firmly on the floor at the other end. \n\n2)Grabbing a dumbbell in each hand, palms facing in, bring your arms down to your sides, hanging off the bench. \n\n3)Slowly raise your arms up until they are level with your chest, then curl the dumbbells twisting your palms so your forearms touch your biceps. \n\n4)Hold this position for a count, isolating the bicep muscle and squeezing. \n\n5)Slowly lower your arms to the starting position. \n\n
+">
+
+            </TextView>        </RelativeLayout>
+        <!--burpees end-->
+        <!-- jumping jack-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="4) Bench Alternate Bicep Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView84"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/benchalterantedbicepcurl"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:textSize="15sp"
+                android:text="1)Lie face down on a high bench and hold one dumbbell with each hand straight below your shoulders. \n\n2)Raise one dumbbell until it reaches your shoulder’s height and while slowly lowering it back down after a short pause, start raising the other one. \n\n3)Try NOT to jerk your upper body in an effort to help you lift the weights. \n\n
+">
+            </TextView>       </RelativeLayout>
+        <!--jumping jack end-->
+        <!-- plank -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="5) Seated Bicep Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView85"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/seatedbicepscurl"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="200dp"
+                android:textSize="15sp"
+                android:text="1)Sit down on a bench and hold one dumbbell with each hand down the side of your body, palms facing each other. \n\n2)Raise both dumbbells until they reach your shoulders’ height and slowly lower them down after a short pause. \n\n
+">
+
+            </TextView>        </RelativeLayout>
+        <!--plank end-->
+        <!-- crunches-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="6) Seated Concentrated Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView86"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/seatedconcentratedcurl"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Select the desired weight from the rack, and sit in an upright position on a flat bench. \n\n2)Hinge forward and position your elbow near the base of your knee. Place your free hand on the other knee to stabilize yourself. \n\n3)Using a supinated (palms facing up) grip, take a deep breath and curl the dumbbell towards your shoulder. \n\n4)Once the bicep is fully shortened, slowly lower the weight back to the starting position. \n\n
+">
+            </TextView>   </RelativeLayout>
+        <!--crunches end-->
+        <!-- mountain climbers -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="7) Barbell Bicep Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView87"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/barbellbicepscurl"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250dp"
+                android:textSize="15sp"
+                android:text="1)Grasp a barbell at around shoulder width apart using an underhand grip (palms facing up).\n\n2)Stand straight up, feet together, back straight, and with your arms fully extended. \n\n3)The bar should not be touching your body. \n\n4)Keeping your eyes facing forwards, elbows tucked in at your sides, and your body completely still, slowly curl the bar up. \n\n5)Squeeze your biceps hard at the top of the movement, and then slowly lower it back to the starting position. \n\n
+"
+                >
+
+            </TextView>        </RelativeLayout>
+        <!--mountain climbers ends-->
+        <!-- Plank Knee to Elbow -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="8) Alternate Bicep Curl"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform"
+                app:autoSizeMinTextSize="10dp"
+                app:autoSizeMaxTextSize="100dp"
+
+                >
+            </TextView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="210dp">
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/gifImageView88"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:background="#FFFFFF"
+                    android:backgroundTint="#FFFFFF"
+                    android:src="@drawable/alternatebicepscurl"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp"
+                android:textSize="15sp"
+                android:text="1)Stand holding a dumbbell in each hand with your arms hanging by your sides.\n\n2)Raise one dumbbell toward your shoulder while simultaneously rotating the back of your hand. \n\n3)Pause with your palm facing your shoulder. Reverse the movement to lower the weight to starting position. \n\n
+">
+
+            </TextView>        </RelativeLayout>  <!--Plank Knee to Elbow-->
+
+    </LinearLayout>
+    <!-- main container ends-->
+</androidx.core.widget.NestedScrollView>

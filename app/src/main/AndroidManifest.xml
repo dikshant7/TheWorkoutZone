@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codeck.gym">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+<uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="The Workout Zone"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+        android:value="ca-app-pub-2745051996532101~4926372558"/>
+
+        <activity android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:noHistory="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity  android:screenOrientation="portrait"
+            android:name=".errorbench"
+            />
+        <activity
+            android:screenOrientation="portrait"
+            android:name=".dumbbellandrods"
+            android:label="@string/title_activity_dumbbellandrods"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity  android:screenOrientation="portrait"
+            android:name=".begineer" />
+        <activity android:screenOrientation="portrait"
+            android:name=".noequipment"
+            android:label="@string/title_activity_noequipment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".fbwnoequipment"
+            android:label="@string/title_activity_fbwnoequipment"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drtriceps"
+            android:label="@string/title_activity_drtriceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".drshoulders"
+            android:label="@string/title_activity_drshoulders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".drlegs"
+            android:label="@string/title_activity_drlegs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".drforearm"
+            android:label="@string/title_activity_drforearm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".drchest"
+            android:label="@string/title_activity_drchest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".drbiceps"
+            android:label="@string/title_activity_drbiceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".drback"
+            android:label="@string/title_activity_drback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".drabdominal"
+            android:label="@string/title_activity_drabdominal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrtriceps"
+            android:label="@string/title_activity_dfbrtriceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrshoulders"
+            android:label="@string/title_activity_dfbrshoulders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrlegs"
+            android:label="@string/title_activity_dfbrlegs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrforearm"
+            android:label="@string/title_activity_dfbrforearm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrchest"
+            android:label="@string/title_activity_dfbrchest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrbiceps"
+            android:label="@string/title_activity_dfbrbiceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrback"
+            android:label="@string/title_activity_dfbrback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dfbrabdominal"
+            android:label="@string/title_activity_dfbrabdominal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dumbellrodflatbench"
+            android:label="@string/title_activity_dumbellrodflatbench"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdtriceps"
+            android:label="@string/title_activity_abdtriceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdshoulder"
+            android:label="@string/title_activity_abdshoulder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdlegs"
+            android:label="@string/title_activity_abdlegs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdforearm"
+            android:label="@string/title_activity_abdforearm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdchest"
+            android:label="@string/title_activity_abdchest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdbiceps"
+            android:label="@string/title_activity_abdbiceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdback"
+            android:label="@string/title_activity_abdback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abdabdominal"
+            android:label="@string/title_activity_abdabdominal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".abenchanddumbell"
+            android:label="@string/title_activity_abenchanddumbell"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rback"
+            android:label="@string/title_activity_rback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rabchest"
+            android:label="@string/title_activity_rabchest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rabshoulders"
+            android:label="@string/title_activity_rabshoulders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rababdomials"
+            android:label="@string/title_activity_rababdomials"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rabback"
+            android:label="@string/title_activity_rabback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rablegs"
+            android:label="@string/title_activity_rablegs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rabforearms"
+            android:label="@string/title_activity_rabforearms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rabtriceps"
+            android:label="@string/title_activity_rabtriceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rabbiceps"
+            android:label="@string/title_activity_rabbiceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".abenchandrod"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_abenchandrod"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfbchest"
+            android:label="@string/title_activity_rfbchest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfbshoulders"
+            android:label="@string/title_activity_rfbshoulders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfbabdomials"
+            android:label="@string/title_activity_rfbabdomials"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfbback"
+            android:label="@string/title_activity_rfbback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfblegs"
+            android:label="@string/title_activity_rfblegs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfbforearms"
+            android:label="@string/title_activity_rfbforearms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfbtriceps"
+            android:label="@string/title_activity_rfbtriceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rfbbiceps"
+            android:label="@string/title_activity_rfbbiceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".rodandflatbench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_rodandflatbench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rchest"
+            android:label="@string/title_activity_rchest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rshoulders"
+            android:label="@string/title_activity_rshoulders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rabdominals"
+            android:label="@string/title_activity_rabdominals"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rlegs"
+            android:label="@string/title_activity_rlegs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rforearms"
+            android:label="@string/title_activity_rforearms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rtricpes"
+            android:label="@string/title_activity_rtricpes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rbiceps"
+            android:label="@string/title_activity_rbiceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".rod"
+            android:label="@string/title_activity_rod"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrchest"
+            android:label="@string/title_activity_dabrchest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrshoulders"
+            android:label="@string/title_activity_dabrshoulders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrabdominals"
+            android:label="@string/title_activity_dabrabdominals"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrback"
+            android:label="@string/title_activity_dabrback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrlegs"
+            android:label="@string/title_activity_dabrlegs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrforearms"
+            android:label="@string/title_activity_dabrforearms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrtriceps"
+            android:label="@string/title_activity_dabrtriceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:screenOrientation="portrait"
+            android:name=".dabrbiceps"
+            android:label="@string/title_activity_dabrbiceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dumbbellsandabenchandrod"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dumbbellsandabenchandrod"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dumbbellsandflatbench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dumbbellsandflatbench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dumbbells"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dumbbells"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".warmupexercises"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_warmupexercises"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfbshoulder"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dfbshoulder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfblegs"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dfblegs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfbforearm"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dfbforearm"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfbtriceps"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dfbtriceps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfbbiceps"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dfbbiceps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfbchest"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dfbchest"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfbback"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dlfbback"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dfbabdominal"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dfbabdominal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwrod"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwrod"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwdumbellsandrod"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwdumbellsandrod"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwdumbellsandabench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwdumbellsandabench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwdumbells"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwdumbells"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwrodandabench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwrodandabench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwrodandfbench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwrodandfbench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwdumbellsandfkatbench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwdumbellsandfkatbench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwdumbellsrodabench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwdumbellsrodabench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fbwdumbellsrodfbench"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fbwdumbellsrodfbench"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".fullbodyworkout"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_fullbodyworkout"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dchest"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dchest"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dshoulder"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dshoulder"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dback"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dback"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dforearm"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dforearm"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dlegs"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dlegs"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dabdominal"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dabdominal"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".dtriceps"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dtriceps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".flatbench"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".errorbenchabench"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".abench"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dbiceps"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_dbiceps"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
